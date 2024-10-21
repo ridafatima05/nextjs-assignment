@@ -1,11 +1,18 @@
 import React from 'react'
+import Hero from './components/hero'
+import AboutUs from './about/page'
+import Menu from './menu/page'
+import Contact from './contact/page'
 
 
 const Homepage = () => {
   return (
     <div>
-      <h1 className='h-screen w-{100%} bg-orange-200'>This is my Home page</h1>
-      
+      <Hero/>
+      <AboutUs/>
+      <Menu/>
+      <Contact/>
+
     </div>
   )
 }
