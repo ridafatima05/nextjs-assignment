@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -18,7 +19,7 @@ const HeroSection = () => {
           Explore Our Menu
         </button>
       </div>
-      <img 
+      <Image
         src="/images/brown-coffee-droplets-fly-around-cup-chaotic-artistic-splash_91128-4339.avif" 
         alt="Coffee Ingredients" 
         className="object-cover w-full h-full" 
